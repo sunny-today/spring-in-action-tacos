@@ -5,13 +5,13 @@
 
     <groupId>sia</groupId>
   	<artifactId>taco-cloud-parent</artifactId>
-  	<version>0.0.6-SNAPSHOT</version>
+  	<version>0.0.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-parent</artifactId>
-  		<version>2.2.6.RELEASE</version>
+  		<version>2.0.4.RELEASE</version>
   		<relativePath/>
   	</parent>
 
@@ -26,6 +26,11 @@
       <module>tacocloud-api</module>
       <module>tacocloud-data</module>
       <module>tacocloud-domain</module>
+      <module>tacocloud-kitchen</module>
+      <module>tacocloud-messaging-jms</module>
+      <module>tacocloud-messaging-kafka</module>
+      <module>tacocloud-messaging-rabbitmq</module>
+      <module>tacocloud-restclient</module>
       <module>tacocloud-security</module>
       <module>tacocloud-web</module>
       <module>tacocloud-ui</module>
